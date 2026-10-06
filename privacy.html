@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FormForge — Privacy Policy</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #0B0B0D; color: #E8E6E1; font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
+  h1 { font-size: 32px; margin: 0 0 4px; color: #D4AF37; }
+  h2 { font-size: 20px; margin: 40px 0 8px; color: #F3EFE4; }
+  p, li { color: #C9C5BC; }
+  .meta { color: #8E8A80; font-size: 14px; margin-bottom: 32px; }
+  a { color: #D4AF37; }
+  ul { padding-left: 20px; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid #26262B; }
+  th { color: #F3EFE4; }
+  nav { font-size: 14px; margin-bottom: 24px; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="./">FormForge</a> · Privacy Policy</nav>
+<h1>Privacy Policy</h1>
+<p class="meta">FormForge for iOS · Last updated October 6, 2026 · DRAFT, review before publishing</p>
+
+<p>FormForge is a fitness and nutrition app made by an independent developer. This page explains what the app collects, why, where it goes, and how to delete it.</p>
+
+<p>In short: FormForge stores your training and nutrition data so it follows you between devices, sends small pieces of it to our server only when you use the AI features, shows no ads, sells no data, and does not track you across other apps or websites. You can delete your account and everything in it from inside the app.</p>
+
+<h2>What the app collects, and why</h2>
+<table>
+<tr><th>Data</th><th>Where it comes from</th><th>What it is used for</th></tr>
+<tr><td>Email address and name</td><td>Sign in with Apple. With Apple's "Hide My Email", a relay address is received instead of your real one.</td><td>Creating and signing in to your account.</td></tr>
+<tr><td>Workouts, sessions, body weight, nutrition logs, custom foods, recipes, grocery lists, goals, and your Home layout</td><td>What you enter in the app.</td><td>This is the app. It is stored so your history survives a new phone or a reinstall.</td></tr>
+<tr><td>Health data: steps, sleep, heart rate, and date of birth</td><td>Apple Health, only if you grant access. FormForge reads these and never writes to Health.</td><td>Daily activity, sleep stages, and heart rate zones shown next to your training. Date of birth is used only to estimate your maximum heart rate.</td></tr>
+<tr><td>Username</td><td>Chosen by you, optional.</td><td>Letting friends find you by exact name. It is the only thing about you another user can see.</td></tr>
+<tr><td>Shared workouts and notes</td><td>What you choose to share.</td><td>Shown to friends you have accepted, and no one else. There is no public feed.</td></tr>
+<tr><td>Nutrition label photos</td><td>The camera, when you scan a label.</td><td>Reading the numbers off the label. The photo is processed and not stored.</td></tr>
+<tr><td>Voice quick-log text</td><td>Your speech is turned into text on your device by Apple's Speech framework. Only the text leaves the phone.</td><td>Turning "two eggs and a coffee" into log entries.</td></tr>
+<tr><td>Subscription status</td><td>Apple, via RevenueCat.</td><td>Knowing whether you have FormForge Premium. Payment details never reach us.</td></tr>
+<tr><td>An account identifier</td><td>Generated when you sign in.</td><td>Tying the above to your account. It is not your Apple ID.</td></tr>
+</table>
+
+<h2>What the app does not collect</h2>
+<ul>
+  <li>No location.</li>
+  <li>No contacts, photo library, or browsing history.</li>
+  <li>No advertising identifiers. There are no ads and no ad networks in the app.</li>
+  <li>No analytics or crash-reporting SDKs.</li>
+  <li>No audio recordings. Speech is transcribed on your device.</li>
+</ul>
+
+<h2>Apple Health data</h2>
+<p>Health data is read only with your permission and only for the types you approve. It is used to show your activity, sleep, and heart rate zones inside FormForge. If you use the daily insight feature, summarised figures such as a day's step count or hours slept are included in what is sent to our server to generate that insight. Health data is not used for advertising, not sold, and not shared with third parties for any purpose other than generating a feature you asked for. Nothing is written back to Apple Health.</p>
+
+<h2>The AI features</h2>
+<p>Label scanning, voice quick-log, recipe import, and the daily insight run on our server rather than on your phone. When you use one, the relevant input (a label photo, the transcribed text, a recipe link, or a summary of your recent training, nutrition, weight, and activity) is sent to our server and processed with Anthropic's Claude API under Anthropic's commercial terms. Inputs are used to return a result and are not retained by us afterwards. We keep a count of how many AI requests your account has made, which is how the free allowance works.</p>
+
+<h2>Where your data lives</h2>
+<ul>
+  <li><strong>Google Firebase</strong> (Authentication and Firestore, hosted in the United States) stores your account and app data. Security rules restrict access so that only you can read your own data, and friends can read only what you shared with them.</li>
+  <li><strong>Vercel</strong> runs our server for the AI features.</li>
+  <li><strong>Anthropic</strong> processes AI requests as described above.</li>
+  <li><strong>RevenueCat</strong> manages subscription status on Apple's behalf.</li>
+</ul>
+<p>Each of these acts as a service provider on our instructions.</p>
+
+<h2>Sharing with other people</h2>
+<p>Other FormForge users can see your username if they search for it exactly, and nothing else unless you accept them as a friend. Friends see the workouts and notes you choose to share. You can unfriend, block, or report anyone from inside the app. Blocking is private: the other person is not told.</p>
+
+<h2>Keeping and deleting data</h2>
+<p>Your data is kept for as long as your account exists. To delete your account, open <strong>Settings → Delete Account</strong> in the app. Apple asks you to sign in again to confirm, and then everything is removed: your training and nutrition history, profile, username, friendships, requests, blocks, shared workouts, and account record. Your Sign in with Apple authorization is revoked. This is immediate and cannot be undone.</p>
+<p>The one exception is abuse reports. If another user has reported content you shared, the report itself is kept so that reporting cannot be undone by deleting the account it was about.</p>
+
+<h2>Children</h2>
+<p>FormForge is not directed at children under 13 and does not knowingly collect data from them. If you believe a child has created an account, contact us and it will be deleted.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes in a way that matters, the date at the top changes and the new version appears here before it takes effect.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy or your data: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+</main>
+</body>
+</html>
